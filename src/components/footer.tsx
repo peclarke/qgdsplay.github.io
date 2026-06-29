@@ -3,7 +3,7 @@ import "@qld-gov-au/qgds-web-components";
 
 const Footer = () => {
   return (
-    <section className="valign">
+    <section className="valign qgds">
       <Alert variant="filled" severity="error">
         Footer isn't exported from QGDS web components. Links don't look, styles
         look weird. And yet, theirs works.

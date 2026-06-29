@@ -3,7 +3,7 @@
 # Please see the documentation for all configuration options:
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 
-# This monitors for updates from QGDS and makes relevant PRs from it. 
+# This monitors for updates from QGDS and makes relevant PRs from it.
 
 version: 2
 

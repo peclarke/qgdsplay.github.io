@@ -2,7 +2,7 @@ import "@qld-gov-au/qgds-web-components/card";
 
 const Cards = () => {
   return (
-    <section className="valign">
+    <section className="valign qgds">
       <h3>Cards</h3>
 
       <qgds-card heading="Card title" variant="none" palette="default">

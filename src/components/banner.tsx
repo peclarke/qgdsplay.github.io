@@ -3,7 +3,7 @@ import "@qld-gov-au/qgds-web-components/breadcrumbs";
 
 const Banner = () => {
   return (
-    <section className="valign">
+    <section className="qgds valign">
       <Alert variant="filled" severity="error">
         The banner component is not exported from the web components. <br></br>
         But, the breadcrumbs component is working. So, that's good news!

@@ -12,7 +12,7 @@ import Alert from "@mui/material/Alert";
 
 const Form = () => {
   return (
-    <section className="valign">
+    <section className="valign qgds">
       <Alert variant="filled" severity="error">
         The things that don't work:
         <ul>
@@ -22,9 +22,6 @@ const Form = () => {
       </Alert>
 
       <Alert variant="filled" severity="warning">
-        The alert component is not imported from the web components. Instead, we
-        have to use custom styled components? Which is odd.
-        <br />
         This is also a server validated form, so the buttons at the botttom are
         also custom. I had to implement more custom JSX code than I had
         expected, or needed to with a library like MUI.

@@ -19,6 +19,7 @@ import Logo from "./components/logo";
 import Tabs from "./components/tabs";
 import Tags from "./components/tags";
 import Video from "./components/video";
+import Wrapper from "./components/wrapper";
 
 const App = () => {
   const [selected, setSelected] = useState("buttons");
@@ -37,6 +38,7 @@ const App = () => {
     tabs: Tabs,
     tagLabels: Tags,
     video: Video,
+    wrapper: Wrapper,
   };
 
   const SelectedComponent = comps[selected];

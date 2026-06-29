@@ -3,7 +3,7 @@ import "@qld-gov-au/qgds-web-components";
 
 const Header = () => {
   return (
-    <section className="valign">
+    <section className="valign qgds">
       <Alert variant="filled" severity="error">
         Another component that is missing exports and has improper styling. I've
         even implemented the custom styling they use on their storybook inside

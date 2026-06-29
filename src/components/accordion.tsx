@@ -4,10 +4,7 @@ import Alert from "@mui/material/Alert";
 
 const Accordion = () => {
   return (
-    <section className="valign">
-      <Alert variant="filled" severity="warning">
-        I had expected for the colours here to be blue. But, they are not.
-      </Alert>
+    <section className="valign qgds">
       <h3>Accordion Component</h3>
       <qgds-accordion-group show-controls="auto">
         <qgds-accordion is-open="" title="This accordion is initially open.">

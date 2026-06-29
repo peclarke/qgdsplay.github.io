@@ -3,6 +3,7 @@ import "@qld-gov-au/qgds-web-components";
 
 const Tabs = () => {
   return (
+    // doesn't work with qgds class here either
     <section className="valign">
       <Alert variant="filled" severity="error">
         Another component that isn't exported. Doesn't work, there are no tabs

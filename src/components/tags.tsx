@@ -2,7 +2,7 @@ import "@qld-gov-au/qgds-web-components";
 
 const Tags = () => {
   return (
-    <section className="valign">
+    <section className="valign qgds">
       <h3>Tags</h3>
 
       <qgds-tag label="Default" variant="default"></qgds-tag>

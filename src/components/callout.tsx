@@ -2,7 +2,7 @@ import "@qld-gov-au/qgds-web-components/callout";
 
 const Callout = () => {
   return (
-    <section className="valign">
+    <section className="valign qgds">
       <qgds-callout heading="Notice">
         {" "}
         This is the QGDS Callout component.{" "}

@@ -2,7 +2,7 @@ import "@qld-gov-au/qgds-web-components/inpage-nav";
 
 const InpageNav = () => {
   return (
-    <section className="valign">
+    <section className="valign qgds">
       <h3>Inpage Nav Component</h3>
 
       <qgds-inpage-nav
